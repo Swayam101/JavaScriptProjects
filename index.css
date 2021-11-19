@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header{
+    font-size: 5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+a:link{
+    color: white;
+}
