@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dde1e7;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3rem;
+    box-shadow: -3px -3px 5px #ffffff,3px 3px 15px #000000;
+    border-radius: 1.5rem; 
+    
+}
+.taskBox{
+    box-shadow: -3px -3px 5px #ffffff,3px 3px 15px #000000;
+    border-radius: 10%;
+    width: 20%;
+    height: 65%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tb-header{
+    border-radius: 10%;
+    display: flex;
+    height: 17%;
+    justify-content: space-around;
+    align-items: center;
+}
+.edit{
+   
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -3px -3px 5px #ffffff,3px 3px 15px #000000;
+}
+.body{
+    height: 80%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.edit:hover,.delete:hover,.add:hover{
+    transform: scale(0.7);
+}
+#txt{
+    height:80%;
+    width: 90%;
+    border-radius: 10%;
+    align-self: center;
+    padding: 1.5rem;
+}
+.add{
+    font-size: 4rem;
+    padding: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color: -3px -3px 5px #ffffff,3px 3px 15px #000000;
+    box-shadow: -3px -3px 5px #ffffff,3px 3px 15px #000000;
+    border-radius: 50%;
+    height: 80%;
+}
+.add:hover{
+    transform: scale(0.7);
+}
+.delete{
+    box-shadow: -3px -3px 5px #ffffff,3px 3px 15px #000000;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 20%;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hidden{
+    display: none;
+}
+.main{
+    word-wrap: break-word;
+    font-size: 1rem;
+    height:80%;
+    width: 90%;
+    border-radius: 10%;
+    align-self: center;
+    padding: 0.5rem;
+    color: gray;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #808080, 0 0 20px #808080, 0 0 25px #808080, 0 0 30px #808080, 0 0 35px #808080;
+  animation: blinker 1s linear infinite;
+}
