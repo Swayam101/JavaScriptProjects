@@ -26,4 +26,5 @@ body{
 .food{
     background-color: chocolate;
     border:0.25vmin slid black;
+    border-radius:50%;
 }
