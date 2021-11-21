@@ -24,7 +24,8 @@ body{
     border:0.25vmin solid black;
 }
 .food{
-    background-color: chocolate;
+    background: url("appleFoodSnake.png");
     border:0.25vmin slid black;
-    border-radius:50%;
+    background-position: center;
+    background-size: cover;
 }
